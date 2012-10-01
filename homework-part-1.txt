@@ -1,0 +1,33 @@
+#1
+
++ Разработано одним автором
+- CoffeeScript (Jeremy Ashkenas)
+- Clojure (Рич Хикки)
+- PHP (Расмус Лердорф)
+
++ Разработано компанией
+- Dart (Google)
+- Go (Google)
+- Windows PowerShell (Microsoft)
+- JavaScript (Netscape)
+
+
+
+#2
+
++ Исполняемые в браузере
+- XSLT
+- Dart
+- HaXe
+- ActionScript
+- Java
+- CoffeeScript
+- JavaScript
+
++ Неисполняемые в браузере
+- PHP
+- Python
+- Ruby
+- C
+- C++
+- С#
