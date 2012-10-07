@@ -16,12 +16,12 @@ TODO: тут будет описание от @voins
 <ul>
 	<li>Java</li>
 	<li>Python</li>
-	<li>JavaScript</li>
+	<li>javascript</li>
 </ul>
 
- б)по типизации
+б)по типизации
 
-  статическая 
+статическая 
 <ul>
   <li>Java</li>
   <li>Паскаль</li>
@@ -29,10 +29,10 @@ TODO: тут будет описание от @voins
 </ul>
 
 
-  динамическая
+динамическая
 <ul>
-  	<li>Javascript</li>
-  	<li>PHP</li>
+	<li>Javascript</li>
+	<li>PHP</li>
 </ul>
 
  # Познакомиться с новым языком программирования.
@@ -43,10 +43,22 @@ TODO: тут будет описание от @voins
 local life = cool
 function hey ()
 	if life == cool do
-	  	for i = 1,5 do 
-	  		print(' Hello, ya!!!! ')
-	  	end
+		for i = 1,5 do 
+			print(' Hello, ya!!!! ')
+		end
 	end
-  end
+end
+	
+do
+	local a = { 1, 3, 8, 2, 6, 4, 5, 7 }
+	repeat
+		local is_sorted, i = true, 1
+		while not( a[ i + 1 ] == nil ) do
+			if a[ i ] > a[ i + 1 ] then
+				a[ i ], a[ i + 1 ], i, is_sorted = a[ i + 1 ], a[ i ], i + 1, false
+			end
+		end
+	until not is_sorted
+end
 </pre>
 
