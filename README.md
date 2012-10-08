@@ -11,8 +11,7 @@ TODO: тут будет описание от @voins
   * Delphi
   * ASP.NET
 
- Cредняя зарплата в Москве больше или равна 80.000 (2011 год.)
-
+Cредняя зарплата в Москве больше или равна 80.000 (2011 год.)
   * Java
   * Python
   * Javascript
@@ -26,31 +25,31 @@ TODO: тут будет описание от @voins
   * С++
 
 динамическая
-	* Javascript
-	* PHP
+  * Javascript
+  * PHP
 
  # Познакомиться с новым языком программирования.
 
   Интерфейс игрушки, в которую я играю (EVE) написан ( или был написан на Lua ). Да, и вообще многие игрушки. Сейчас в нем разбираюсь
 
-				local life = cool
-				function hey ()
-					if life == cool do
-						for i = 1,5 do 
-							print(' Hello, ya!!!! ')
-						end
+     local life = cool
+		function hey ()
+			if life == cool do
+				for i = 1,5 do 
+					print(' Hello, ya!!!! ')
+				end
+			end
+		end
+			
+		do
+			local a = { 1, 3, 8, 2, 6, 4, 5, 7 }
+			repeat
+				local is_sorted, i = true, 1
+				while not( a[ i + 1 ] == nil ) do
+					if a[ i ] > a[ i + 1 ] then
+						a[ i ], a[ i + 1 ], i, is_sorted = a[ i + 1 ], a[ i ], i + 1, false
 					end
 				end
-					
-				do
-					local a = { 1, 3, 8, 2, 6, 4, 5, 7 }
-					repeat
-						local is_sorted, i = true, 1
-						while not( a[ i + 1 ] == nil ) do
-							if a[ i ] > a[ i + 1 ] then
-								a[ i ], a[ i + 1 ], i, is_sorted = a[ i + 1 ], a[ i ], i + 1, false
-							end
-						end
-					until not is_sorted
-				end
+			until not is_sorted
+		end
 
